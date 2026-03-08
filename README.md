@@ -1,6 +1,7 @@
 # Library Management System (Java Console)
 
 -- A simple console-based Library Management System built in Java.
+<br>
 -- It allows users to add books, view books, issue and return books.
 
 ## Features
