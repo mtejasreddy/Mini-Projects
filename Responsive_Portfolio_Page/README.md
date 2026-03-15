@@ -5,10 +5,15 @@ A simple, beginner-friendly responsive portfolio website built with HTML and CSS
 ## Features
 
 -- Responsive design for desktop and mobile
+<br>
 -- Simple navigation menu (Home, About, Skills, Projects, Contact)
+<br>
 -- Social media links (LinkedIn, GitHub, LeetCode)
+<br>
 -- Grid layout for projects
+<br>
 -- Contact section with email
+<br>
 -- Footer with copyright
 
 ## File Structure
