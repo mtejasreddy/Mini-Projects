@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: rgb(28, 218, 243);
+      }
+
+      .clock {
+        font-size: 4rem;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        color: white;
+        border: 5px solid white;
+        padding: 20px 40px;
+        border-radius: 15px;
+        background: rgba(146, 187, 242, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="clock" id="clock">00:00:00</div>
+    <script>
+      function updateClock() {
+        const now = new Date();
+
+        let hours = now.getHours();
+        let minutes = now.getMinutes();
+        let seconds = now.getSeconds();
+
+        hours = hours.toString().padStart(2, "0");
+        minutes = minutes.toString().padStart(2, "0");
+        seconds = seconds.toString().padStart(2, "0");
+
+        document.getElementById("clock").textContent =
+          `${hours}:${minutes}:${seconds}`;
+      }
+
+      updateClock();
+      setInterval(updateClock, 1000);
+    </script>
+  </body>
+</html>
