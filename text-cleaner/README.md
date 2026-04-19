@@ -48,12 +48,6 @@ Code
 
 ---
 
-## Live Demo
-
-[Click here to try the app](https://mtejasreddy.github.io/Mini-Projects/text-cleaner)
-
----
-
 ## Learning Outcomes
 
 - Practiced **string manipulation methods** (`replace`, `split`, `join`, `trim`).
