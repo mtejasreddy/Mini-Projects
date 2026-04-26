@@ -1,0 +1,4 @@
+Name: Tejas
+Total marks: 360
+Average Marks: 90.0
+Grade: A
