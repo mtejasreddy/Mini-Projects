@@ -39,11 +39,11 @@ image-gallery/
 
 ## 🎮 How to Use
 1. Clone the repository:
-   git clone https://github.com/mtejasreddy/Mini-Projects/tree/main/image-gallery.git
+   git clone https://github.com/mtejasreddy/Mini-Projects.git
+    - cd Mini-Projects/image-gallery
 
 2. Install dependencies:
-    - Terminal
-    - npm install
+    - In Terminal -> npm install
 
 3. Add your Unsplash API key in SearchBar.jsx:
     - client_id=YOUR_ACCESS_KEY
